@@ -18,4 +18,6 @@ export function mapDispatchToProps(dispatch: Dispatch<actions.EnthusiasmAction>)
   }
 }
 
+console.log(11)
+
 export default connect(mapStateToProps, mapDispatchToProps)(Hello);
